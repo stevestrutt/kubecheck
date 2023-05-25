@@ -1,0 +1,21 @@
+# Compiled files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfstate.*.backup
+*.tfstate.lock.info
+
+# Directories
+.terraform/
+
+# SSH Keys
+*.pem
+id_rsa
+id_rsa.pub
+
+# Backup files
+*.bak
+
+# Ignored Terraform files
+*gitignore*.tf
+crash.log
